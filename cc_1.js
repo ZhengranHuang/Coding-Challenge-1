@@ -14,9 +14,27 @@ console. log(isActive, typeof(isActive));
 
  let products = ["apple","orange","water"] ;
  const productDetails = {
-    name: fruitman,
+    name: products,
     price: 10.00,
     inStock: true
  }
 
  console.log(products, productDetails);
+
+
+
+ //Task 3: Assignment Operators
+  let accountBalance = 100;
+  console. log("Initial Balance;", accountBalance)
+  
+accountBalance +=100;
+console. log("updated Balance", accountBalance);
+
+accountBalance -= 100;
+console. log("updated Balance", accountBalance);
+
+accountBalance *= 2;
+console. log("updated Balance", accountBalance);
+
+accountBalance /= 2;
+console. log("updated Balance", accountBalance);
